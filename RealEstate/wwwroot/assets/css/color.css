@@ -1,0 +1,39 @@
+:root {
+	--theme-color: #1A3636;
+	--primary-color: #677D6A;
+	--secondary-color: #D6BD98;
+	--white-color: #FFFFFF;
+	--higer-secondary-color: #202C38;
+	--primary-font: 'Roboto', sans-serif;
+	--secondary-font: 'Mulish', sans-serif;
+}
+
+
+.scroll-top {
+	background: var(--theme-color);
+}
+
+.main-menu .navigation > li > a:hover,
+.main-menu .navigation > li > ul > li > a:hover,
+.main-menu .navigation > li > .megamenu li > a:hover{
+	color: var(--secondary-color) !important;
+}
+
+.main-menu .navigation > li > ul > li > ul > li > a:hover{
+  color: var(--theme-color);
+}
+
+.handle-preloader.home-1{
+	background: var(--theme-color);
+}
+
+.sticky-header{
+  background: var(--theme-color);
+}
+.main-menu .navigation > li > ul > li:hover > a, 
+.main-menu .navigation > li > .megamenu li:hover > a,
+.main-header .sticky-header .main-menu .navigation > li ul li a:hover{
+  color: var(--secondary-color) !important;
+}
+
+

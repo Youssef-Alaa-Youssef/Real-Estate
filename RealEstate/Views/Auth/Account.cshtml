@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Register Now";
+    Layout = "_Auth";
+}
+
+
+<div class="image-section">
+    <img src="~/assets/images/Login.png" alt="Real Estate Image">
+</div>
+<div class="form-section">
+    <div class="tabs">
+        <button class="tab-button active" onclick="showTab('login')">Login</button>
+        <button class="tab-button" onclick="showTab('register')">Register</button>
+        <button class="tab-button" onclick="showTab('forgot-password')">Forgot Password</button>
+    </div>
+
+    <div id="login-form" class="form-content active">
+        <form asp-controller="Auth" asp-action="SignIn"  method="POST">
+            <label for="login-email">Email:</label>
+            <input type="email" id="login-email" name="email" required>
+
+            <label for="login-password">Password:</label>
+            <input type="password" id="login-password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+
+    </div>
+
+    <div id="register-form" class="form-content">
+        <form asp-controller="Auth" asp-action="SignUp" method="POST">
+            <label for="register-email">Email:</label>
+            <input type="email" id="register-email" name="email" required>
+
+            <label for="register-password">Password:</label>
+            <input type="password" id="register-password" name="password" required>
+
+            <label for="register-confirm-password">Confirm Password:</label>
+            <input type="password" id="register-confirm-password" name="confirm-password" required>
+
+            <label for="register-phone">Phone:</label>
+            <input type="tel" id="register-phone" name="phone">
+
+            <button type="submit">Register</button>
+        </form>
+
+    </div>
+
+    <div id="forgot-password-form" class="form-content">
+        <form asp-controller="Auth" asp-action="forgotPassword" method="POST">
+            <label for="forgot-email">Email:</label>
+            <input type="email" id="forgot-email" name="email" required>
+
+            <button type="submit">Send Reset Link</button>
+        </form>
+    </div>
+
+    <a asp-controller="Home" asp-action="Index" class="home-link">Back to Home</a>
+</div>

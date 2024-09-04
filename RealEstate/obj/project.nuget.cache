@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "O0qJ36RNBY4JhzHNFz2j4hHWBk74/V+cp1sgQyaEUUZMX4TopmsA5iIIhN5lmMaupO5TiKuMIbU9Du1tW4+QRw==",
+  "success": true,
+  "projectFilePath": "D:\\RealEstate\\RealEstate\\RealEstate.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Youssef Alaa\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512"
+  ],
+  "logs": []
+}

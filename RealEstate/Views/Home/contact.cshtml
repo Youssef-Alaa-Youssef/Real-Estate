@@ -1,0 +1,76 @@
+﻿@{
+    ViewData["Title"] = "Contact Now";
+}
+
+<!-- page-title -->
+<section class="page__title p_relative">
+    <div class="container">
+        <div class="content-box p_relative">
+            <h1 class="title">Contact</h1>
+            <ul class="bread-crumb">
+                <li><a href="/"><span class="icon-icon-16"></span>Home</a></li>
+                <li><span class="icon-57"></span>Contact</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="contact__style__one see__pad">
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-lg-6 col-md-12 col-sm-12 info-column">
+                <div class="contact-info mr_70">
+                    <h3>Lets talk!</h3>
+                    <p>Quisque vitae volutpat leo. Cras scelerisque dignissim diam, nec auctor nisl pretium eu. Sed vulputate leo ac porta eleifend. Pellentesque semper convallis lacus, </p>
+                    <div class="contact__info__block">
+                        <div class="left__site__info">
+                            <div class="contact__icon one">
+                                <span class="icon-56"></span>
+                            </div>
+                        </div>
+                        <div class="right__site__info one">
+                            <h5>Call us</h5>
+                            <a href="tel:+12345   6987   231 ">+12345   6987   231 </a>
+                        </div>
+                    </div>
+                    <div class="contact__info__block">
+                        <div class="left__site__info">
+                            <div class="contact__icon two">
+                                <span class="icon-55"></span>
+                            </div>
+                        </div>
+                        <div class="right__site__info two">
+                            <h5>E-mail Address</h5>
+                            <a href="mailto:info@yourmail.com">info@yourmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 form-column">
+                <div class="form-inner">
+                    <div class="contact___title">
+                        <h3> Send us a message </h3>
+                        <p>Quisque vitae volutpat leo. Cras scelerisque dignissim diam, nec auctor nisl pretium eu. Sed vulputate leo ac porta eleifend. Pellentesque semper convallis lacus, </p>
+                    </div>
+                    <form method="post" action="sendemail.php" id="contact-form">
+                        <div class="row clearfix">
+                            <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                <input type="text" name="username" placeholder="Your Name" required="">
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 ps-xl-0 form-group">
+                                <input type="email" name="email" placeholder="Your email" required="">
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                <textarea name="message" placeholder="Message"></textarea>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn mr-0">
+                                <div class="more__buttons">
+                                    <button class="common-btn btn__two" type="submit" name="submit-form">Send Your Message <i class="icon-icon-51"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
