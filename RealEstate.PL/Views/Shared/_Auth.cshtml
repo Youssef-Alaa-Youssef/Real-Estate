@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="~/assets/images/icons/map-marker-22.png" type="image/x-icon">
+    <link href="~/assets/css/bootstrap.css" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            overflow: hidden; /* Prevent scrolling */
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Full viewport height */
+            overflow: hidden; /* Prevent scrolling within the container */
+        }
+
+        .img-animated {
+            transition: transform 0.3s ease, opacity 0.3s ease;
+            opacity: 1;
+        }
+
+        .img-animated:hover {
+            transform: scale(1.0);
+            opacity: 0.9;
+        }
+
+        @@keyframes fadeOut {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0.8;
+            }
+        }
+
+        .img-fade {
+            animation: fadeOut 3s infinite alternate;
+        }
+
+        a {
+            text-decoration: none; 
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        .alert {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 1050; 
+        }
+
+        .img-container {
+            border-radius: 1.25rem;
+            overflow: hidden; 
+        }
+
+        .shadow-layer {
+            background-color: #ffffff; 
+            padding: 30px;
+            border-radius: 1.25rem; 
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+            height: 80%; 
+            max-height: 700px; 
+        }
+        @@media (max-width: 768px) {
+            .shadow-layer {
+                background-color: transparent; 
+                padding: 10px; 
+                border-radius: 0; 
+                box-shadow: none; 
+                height: auto;
+                max-height: none;
+            }
+        }
+    </style>
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+    <div id="loader" class="spinner-container">
+        @await Html.PartialAsync("_Loader")
+    </div>
+    <div class="container">
+        @RenderBody()
+    </div>
+    <script src="~/assets/js/bootstrap.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            function fadeOut(element) {
+                var opacity = 1;
+                var interval = setInterval(function () {
+                    if (opacity <= 0) {
+                        clearInterval(interval);
+                        element.style.display = 'none';
+                    }
+                    element.style.opacity = opacity;
+                    opacity -= 0.05;
+                }, 50);
+            }
+
+            var errorAlert = document.getElementById('error-alert');
+            if (errorAlert) {
+                setTimeout(function () {
+                    fadeOut(errorAlert);
+                }, 5000);
+            }
+
+            var successAlert = document.getElementById('success-alert');
+            if (successAlert) {
+                setTimeout(function () {
+                    fadeOut(successAlert);
+                }, 5000);
+            }
+        });
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,124 @@
+﻿@model RealEstate.PL.ViewModels.Property.PropertyViewModel
+
+@{
+    ViewData["Title"] = "Edit Property";
+    Layout = "_LogedUser";
+}
+<div class="container shadow-lg p-4">
+    <h2 class="text-center mb-4 bg-light text-dark py-3 px-4 rounded">
+        <i class="bi bi-house-door"></i> Edit Property
+    </h2>
+
+    <form asp-action="Edit" enctype="multipart/form-data" method="post">
+        <input type="hidden" asp-for="Id" />
+
+        <!-- General Information Section -->
+        <div class="border p-3 mb-4 rounded bg-light">
+            <h4 class="text-center bg-secondary text-white py-2 px-3 rounded">
+                General Information
+            </h4>
+            <div class="mb-3">
+                <label asp-for="Address" class="form-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="City" class="form-label"></label>
+                <input asp-for="City" class="form-control" />
+                <span asp-validation-for="City" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="State" class="form-label"></label>
+                <input asp-for="State" class="form-control" />
+                <span asp-validation-for="State" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="ZipCode" class="form-label"></label>
+                <input asp-for="ZipCode" class="form-control" />
+                <span asp-validation-for="ZipCode" class="text-danger"></span>
+            </div>
+        </div>
+
+        <!-- Property Details Section -->
+        <div class="border p-3 mb-4 rounded bg-light">
+            <h4 class="text-center bg-secondary text-white py-2 px-3 rounded">
+                Property Details
+            </h4>
+            <div class="mb-3">
+                <label asp-for="Price" class="form-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="SquareFootage" class="form-label"></label>
+                <input asp-for="SquareFootage" class="form-control" />
+                <span asp-validation-for="SquareFootage" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Bedrooms" class="form-label"></label>
+                <input asp-for="Bedrooms" class="form-control" />
+                <span asp-validation-for="Bedrooms" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Bathrooms" class="form-label"></label>
+                <input asp-for="Bathrooms" class="form-control" />
+                <span asp-validation-for="Bathrooms" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="PropertyType" class="form-label"></label>
+                <input asp-for="PropertyType" class="form-control" />
+                <span asp-validation-for="PropertyType" class="text-danger"></span>
+            </div>
+        </div>
+
+        <!-- Additional Information Section -->
+        <div class="border p-3 mb-4 rounded bg-light">
+            <h4 class="text-center bg-secondary text-white py-2 px-3 rounded">
+                Additional Information
+            </h4>
+            <div class="mb-3">
+                <label asp-for="ListedDate" class="form-label"></label>
+                <input asp-for="ListedDate" class="form-control" type="date" />
+                <span asp-validation-for="ListedDate" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label"></label>
+                <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+        </div>
+
+        <!-- Features and Photos Section -->
+        <div class="border p-3 mb-4 rounded bg-light">
+            <h4 class="text-center bg-secondary text-white py-2 px-3 rounded">
+                Features and Photos
+            </h4>
+            <div class="mb-3">
+                <label asp-for="Features" class="form-label"></label>
+                <input asp-for="Features" class="form-control" />
+                <span asp-validation-for="Features" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Photos" class="form-label"></label>
+                <input asp-for="Photos" class="form-control" type="file" multiple />
+                <span asp-validation-for="Photos" class="text-danger"></span>
+            </div>
+        </div>
+
+        <!-- Submit and Cancel Buttons -->
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary">
+                <i class="bi bi-pencil-square"></i> Update
+            </button>
+            <a asp-action="Index" class="btn btn-secondary ms-2">
+                <i class="bi bi-arrow-left-circle"></i> Cancel
+            </a>
+        </div>
+    </form>
+</div>
+
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

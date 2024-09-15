@@ -1,0 +1,95 @@
+﻿@model RealEstate.PL.ViewModels.Property.PropertyViewModel
+
+@{
+    ViewData["Title"] = "Delete Property";
+    Layout = "_LogedUser";
+}
+
+<div class="container shadow-lg p-4">
+    <h1 class="text-center mb-4 bg-light text-dark py-3 px-4 rounded">
+        <i class="bi bi-trash"></i> Delete Property
+    </h1>
+
+    <form asp-action="Delete" method="post">
+        <!-- Hidden field for Id -->
+        <input type="hidden" asp-for="Id" />
+
+        <!-- Confirmation Section -->
+        <div class="border p-3 mb-4 rounded bg-light">
+            <h4 class="text-center bg-secondary text-white py-2 px-3 rounded">
+                Confirmation
+            </h4>
+            <p class="text-center">Are you sure you want to permanently delete this property? This action cannot be undone.</p>
+        </div>
+
+        <!-- Property Details Section -->
+        <div class="border p-3 mb-4 rounded bg-light">
+            <h4 class="bg-secondary text-white py-2 px-3 rounded">
+                Property Details
+            </h4>
+
+            <div class="mb-3">
+                <label class="form-label">Address</label>
+                <p class="form-control-plaintext">@Model.Address</p>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">City</label>
+                <p class="form-control-plaintext">@Model.City</p>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">State</label>
+                <p class="form-control-plaintext">@Model.State</p>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Zip Code</label>
+                <p class="form-control-plaintext">@Model.ZipCode</p>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Price ($)</label>
+                <p class="form-control-plaintext">@Model.Price.ToString("F2")</p>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Square Footage</label>
+                <p class="form-control-plaintext">@Model.SquareFootage</p>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Bedrooms</label>
+                <p class="form-control-plaintext">@Model.Bedrooms</p>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Bathrooms</label>
+                <p class="form-control-plaintext">@Model.Bathrooms</p>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Property Type</label>
+                <p class="form-control-plaintext">@Model.PropertyType</p>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Listed Date</label>
+                <p class="form-control-plaintext">@Model.ListedDate.ToString("MMMM dd, yyyy")</p>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Description</label>
+                <p class="form-control-plaintext">@Model.Description</p>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Features</label>
+                <p class="form-control-plaintext">@string.Join(", ", Model.Features)</p>
+            </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="text-center">
+            <button type="submit" class="btn btn-danger">
+                <i class="bi bi-x-circle"></i> Delete
+            </button>
+            <a asp-action="Index" class="btn btn-secondary ms-2">
+                <i class="bi bi-arrow-left-circle"></i> Cancel
+            </a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

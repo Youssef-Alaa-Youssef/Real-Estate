@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Confirm Your Account";
+    Layout = "_Auth";
+}
+
+<div class="container-fluid vh-100 d-flex align-items-center justify-content-center overflow-hidden shadow-layer">
+    <div class="row w-100 mx-0">
+        <!-- Left Section: Image -->
+        <div class="col-md-6 d-flex align-items-center justify-content-center p-0">
+            <img src="~/assets/images/Login.png" alt="Confirmation Image" class="img-fluid img-container" style="max-height: 90%; max-width: 100%; object-fit: cover;">
+        </div>
+        <!-- Right Section: Content -->
+        <div class="col-md-6 d-flex align-items-center justify-content-center p-3">
+            <div class="w-75">
+                <h2 class="text-center mb-4">Please Check Your Email</h2>
+                <p class="text-center mb-4">We've sent you an email to confirm your account. Please check your inbox and follow the instructions to <strong>activate</strong> your account.</p>
+
+                @if (TempData["Error"] != null)
+                {
+                    <div id="error-alert" class="alert alert-danger alert-dismissible fade show" role="alert">
+                        @TempData["Error"]
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                }
+
+                @if (TempData["Success"] != null)
+                {
+                    <div id="success-alert" class="alert alert-success alert-dismissible fade show" role="alert">
+                        @TempData["Success"]
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                }
+
+                <div class="text-center mt-4">
+                    <a href="https://mail.google.com/" class="btn btn-outline-primary" target="_blank">Open Gmail Inbox</a>
+                    <a asp-action="Index" asp-controller="Home" class="btn btn-outline-secondary">Go To Home</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

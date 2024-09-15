@@ -1,0 +1,811 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\RealEstate.PL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\views\\property\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\views\\property\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\views\\property\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\views\\property\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\viewmodels\\property\\propertyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\viewmodels\\property\\propertyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\views\\property\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\views\\property\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\views\\auth\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\views\\auth\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\views\\role\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\views\\role\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\views\\property\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\views\\property\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F623E0-5239-4BED-AC84-C2EB2996E240}|RealEstate.DAL\\RealEstate.DAL.csproj|e:\\realestate.pl\\realestate.dal\\data\\propertyconfigurations .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F623E0-5239-4BED-AC84-C2EB2996E240}|RealEstate.DAL\\RealEstate.DAL.csproj|solutionrelative:realestate.dal\\data\\propertyconfigurations .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\views\\shared\\_logeduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\views\\shared\\_logeduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\views\\role\\allroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\views\\role\\allroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\RealEstate.PL\\RealEstate.DAL\\Migrations\\20240909204554_createpropertymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RealEstate.DAL\\Migrations\\20240909204554_createpropertymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F623E0-5239-4BED-AC84-C2EB2996E240}|RealEstate.DAL\\RealEstate.DAL.csproj|e:\\realestate.pl\\realestate.dal\\data\\contactconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F623E0-5239-4BED-AC84-C2EB2996E240}|RealEstate.DAL\\RealEstate.DAL.csproj|solutionrelative:realestate.dal\\data\\contactconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\RealEstate.PL\\RealEstate.DAL\\Migrations\\20240909204312_createpropertymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RealEstate.DAL\\Migrations\\20240909204312_createpropertymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F623E0-5239-4BED-AC84-C2EB2996E240}|RealEstate.DAL\\RealEstate.DAL.csproj|e:\\realestate.pl\\realestate.dal\\models\\home\\property .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F623E0-5239-4BED-AC84-C2EB2996E240}|RealEstate.DAL\\RealEstate.DAL.csproj|solutionrelative:realestate.dal\\models\\home\\property .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\helper\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\helper\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F623E0-5239-4BED-AC84-C2EB2996E240}|RealEstate.DAL\\RealEstate.DAL.csproj|e:\\realestate.pl\\realestate.dal\\models\\home\\contactus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F623E0-5239-4BED-AC84-C2EB2996E240}|RealEstate.DAL\\RealEstate.DAL.csproj|solutionrelative:realestate.dal\\models\\home\\contactus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\views\\settings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\views\\settings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\views\\auth\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\views\\auth\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\viewmodels\\auth\\settingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\viewmodels\\auth\\settingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\views\\role\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\views\\role\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\views\\home\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\views\\home\\contactreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\views\\home\\contactreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\views\\shared\\_auth.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\views\\shared\\_auth.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\views\\shared\\_loader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\views\\shared\\_loader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\viewmodels\\auth\\applicationuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\viewmodels\\auth\\applicationuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/master/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\views\\role\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\views\\role\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\views\\role\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\views\\role\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\views\\home\\teammemberrep.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\views\\home\\teammemberrep.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\views\\role\\assignroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\views\\role\\assignroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\views\\home\\teammember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\views\\home\\teammember.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\viewmodels\\auth\\rolelistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\viewmodels\\auth\\rolelistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\viewmodels\\auth\\applicationrolesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\viewmodels\\auth\\applicationrolesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/master/True/SqlTable/dbo.AspNetRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\viewmodels\\auth\\roleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\viewmodels\\auth\\roleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|e:\\realestate.pl\\realestate.pl\\viewmodels\\home\\teammemberviewmodelrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3234E5BC-8B7C-428F-9D87-0A07672A5A58}|RealEstate.PL\\RealEstate.PL.csproj|solutionrelative:realestate.pl\\viewmodels\\home\\teammemberviewmodelrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "RealEstate.PL\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AQIAADgAAAAAAAAAAAAAAEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T21:06:26.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PropertyViewModel.cs",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\ViewModels\\Property\\PropertyViewModel.cs",
+              "RelativeDocumentMoniker": "RealEstate.PL\\ViewModels\\Property\\PropertyViewModel.cs",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\ViewModels\\Property\\PropertyViewModel.cs",
+              "RelativeToolTip": "RealEstate.PL\\ViewModels\\Property\\PropertyViewModel.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAlwEEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T20:53:07.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Property\\Index.cshtml",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Views\\Property\\Index.cshtml",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Property\\Index.cshtml",
+              "RelativeToolTip": "RealEstate.PL\\Views\\Property\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T20:32:55.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Property\\Delete.cshtml",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Views\\Property\\Delete.cshtml",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Property\\Delete.cshtml",
+              "RelativeToolTip": "RealEstate.PL\\Views\\Property\\Delete.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAF4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T20:30:45.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Property\\Create.cshtml",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Views\\Property\\Create.cshtml",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Property\\Create.cshtml",
+              "RelativeToolTip": "RealEstate.PL\\Views\\Property\\Create.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAowHUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T20:27:47.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Property\\Edit.cshtml",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Views\\Property\\Edit.cshtml",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Property\\Edit.cshtml",
+              "RelativeToolTip": "RealEstate.PL\\Views\\Property\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T20:29:30.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PropertyController.cs",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Controllers\\PropertyController.cs",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Controllers\\PropertyController.cs",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Controllers\\PropertyController.cs",
+              "RelativeToolTip": "RealEstate.PL\\Controllers\\PropertyController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAtwCwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T20:23:20.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Role\\Edit.cshtml",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Views\\Role\\Edit.cshtml",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Role\\Edit.cshtml",
+              "RelativeToolTip": "RealEstate.PL\\Views\\Role\\Edit.cshtml",
+              "ViewState": "AQIAACgAAAAAAAAAAAAgwBQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T17:26:48.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LogOut.cshtml",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Auth\\LogOut.cshtml",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Views\\Auth\\LogOut.cshtml",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Auth\\LogOut.cshtml",
+              "RelativeToolTip": "RealEstate.PL\\Views\\Auth\\LogOut.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T18:27:34.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PropertyConfigurations .cs",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.DAL\\Data\\PropertyConfigurations .cs",
+              "RelativeDocumentMoniker": "RealEstate.DAL\\Data\\PropertyConfigurations .cs",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.DAL\\Data\\PropertyConfigurations .cs",
+              "RelativeToolTip": "RealEstate.DAL\\Data\\PropertyConfigurations .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T20:44:32.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_LogedUser.cshtml",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Shared\\_LogedUser.cshtml",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Views\\Shared\\_LogedUser.cshtml",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Shared\\_LogedUser.cshtml",
+              "RelativeToolTip": "RealEstate.PL\\Views\\Shared\\_LogedUser.cshtml",
+              "ViewState": "AQIAAKMAAAAAAAAAAAAowKoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T18:16:46.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20240909204554_createpropertymodel.cs",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.DAL\\Migrations\\20240909204554_createpropertymodel.cs",
+              "RelativeDocumentMoniker": "RealEstate.DAL\\Migrations\\20240909204554_createpropertymodel.cs",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.DAL\\Migrations\\20240909204554_createpropertymodel.cs",
+              "RelativeToolTip": "RealEstate.DAL\\Migrations\\20240909204554_createpropertymodel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T20:45:55.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AllRoles.cshtml",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Role\\AllRoles.cshtml",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Views\\Role\\AllRoles.cshtml",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Role\\AllRoles.cshtml",
+              "RelativeToolTip": "RealEstate.PL\\Views\\Role\\AllRoles.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAgwBYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T17:47:32.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ContactConfiguration.cs",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.DAL\\Data\\ContactConfiguration.cs",
+              "RelativeDocumentMoniker": "RealEstate.DAL\\Data\\ContactConfiguration.cs",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.DAL\\Data\\ContactConfiguration.cs",
+              "RelativeToolTip": "RealEstate.DAL\\Data\\ContactConfiguration.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAowCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T20:43:53.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240909204312_createpropertymodel.cs",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.DAL\\Migrations\\20240909204312_createpropertymodel.cs",
+              "RelativeDocumentMoniker": "RealEstate.DAL\\Migrations\\20240909204312_createpropertymodel.cs",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.DAL\\Migrations\\20240909204312_createpropertymodel.cs",
+              "RelativeToolTip": "RealEstate.DAL\\Migrations\\20240909204312_createpropertymodel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T20:43:13.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Controllers\\RoleController.cs",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "RealEstate.PL\\Controllers\\RoleController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T17:28:20.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Property .cs",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.DAL\\Models\\Home\\Property .cs",
+              "RelativeDocumentMoniker": "RealEstate.DAL\\Models\\Home\\Property .cs",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.DAL\\Models\\Home\\Property .cs",
+              "RelativeToolTip": "RealEstate.DAL\\Models\\Home\\Property .cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAA+wB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T20:19:40.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Helper\\AppSettings.cs",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Helper\\AppSettings.cs",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Helper\\AppSettings.cs",
+              "RelativeToolTip": "RealEstate.PL\\Helper\\AppSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T20:21:54.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Program.cs",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Program.cs",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Program.cs",
+              "RelativeToolTip": "RealEstate.PL\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T20:22:24.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\appsettings.json",
+              "RelativeDocumentMoniker": "RealEstate.PL\\appsettings.json",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\appsettings.json",
+              "RelativeToolTip": "RealEstate.PL\\appsettings.json",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-09T20:21:12.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ContactUs.cs",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.DAL\\Models\\Home\\ContactUs.cs",
+              "RelativeDocumentMoniker": "RealEstate.DAL\\Models\\Home\\ContactUs.cs",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.DAL\\Models\\Home\\ContactUs.cs",
+              "RelativeToolTip": "RealEstate.DAL\\Models\\Home\\ContactUs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T20:20:08.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Settings\\Index.cshtml",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Views\\Settings\\Index.cshtml",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Settings\\Index.cshtml",
+              "RelativeToolTip": "RealEstate.PL\\Views\\Settings\\Index.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T19:57:48.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "RealEstate.PL\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAMMAAAAAAAAAAAAwwNAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T17:40:41.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SettingsController.cs",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Controllers\\SettingsController.cs",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Controllers\\SettingsController.cs",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Controllers\\SettingsController.cs",
+              "RelativeToolTip": "RealEstate.PL\\Controllers\\SettingsController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwCQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T19:49:23.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SettingsViewModel.cs",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\ViewModels\\Auth\\SettingsViewModel.cs",
+              "RelativeDocumentMoniker": "RealEstate.PL\\ViewModels\\Auth\\SettingsViewModel.cs",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\ViewModels\\Auth\\SettingsViewModel.cs",
+              "RelativeToolTip": "RealEstate.PL\\ViewModels\\Auth\\SettingsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T19:46:17.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "RealEstate.PL\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAswBMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T19:15:38.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Auth\\Profile.cshtml",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Views\\Auth\\Profile.cshtml",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Auth\\Profile.cshtml",
+              "RelativeToolTip": "RealEstate.PL\\Views\\Auth\\Profile.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T18:40:53.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Role\\Delete.cshtml",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Views\\Role\\Delete.cshtml",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Role\\Delete.cshtml",
+              "RelativeToolTip": "RealEstate.PL\\Views\\Role\\Delete.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T17:39:25.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Home\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Views\\Home\\Dashboard.cshtml",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Home\\Dashboard.cshtml",
+              "RelativeToolTip": "RealEstate.PL\\Views\\Home\\Dashboard.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T19:26:54.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_Auth.cshtml",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Shared\\_Auth.cshtml",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Views\\Shared\\_Auth.cshtml",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Shared\\_Auth.cshtml",
+              "RelativeToolTip": "RealEstate.PL\\Views\\Shared\\_Auth.cshtml",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAHwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T19:20:18.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_Loader.cshtml",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Shared\\_Loader.cshtml",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Views\\Shared\\_Loader.cshtml",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Shared\\_Loader.cshtml",
+              "RelativeToolTip": "RealEstate.PL\\Views\\Shared\\_Loader.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T19:15:46.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "RealEstate.PL\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAADYCAAAAAAAAAAAQwFgCAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T18:39:45.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ApplicationUserViewModel.cs",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\ViewModels\\Auth\\ApplicationUserViewModel.cs",
+              "RelativeDocumentMoniker": "RealEstate.PL\\ViewModels\\Auth\\ApplicationUserViewModel.cs",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\ViewModels\\Auth\\ApplicationUserViewModel.cs",
+              "RelativeToolTip": "RealEstate.PL\\ViewModels\\Auth\\ApplicationUserViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T19:11:09.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ContactReport.cshtml",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Home\\ContactReport.cshtml",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Views\\Home\\ContactReport.cshtml",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Home\\ContactReport.cshtml",
+              "RelativeToolTip": "RealEstate.PL\\Views\\Home\\ContactReport.cshtml",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAAAA0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T18:46:44.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "dbo.AspNetUsers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/master/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "dbo.AspNetUsers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-09T19:09:48.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Report.cshtml",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Role\\Report.cshtml",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Views\\Role\\Report.cshtml",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Role\\Report.cshtml",
+              "RelativeToolTip": "RealEstate.PL\\Views\\Role\\Report.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T17:26:40.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Role\\Index.cshtml",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Views\\Role\\Index.cshtml",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Role\\Index.cshtml",
+              "RelativeToolTip": "RealEstate.PL\\Views\\Role\\Index.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAA8AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T17:25:44.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Role\\Create.cshtml",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Views\\Role\\Create.cshtml",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Role\\Create.cshtml",
+              "RelativeToolTip": "RealEstate.PL\\Views\\Role\\Create.cshtml",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwCcAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T17:26:53.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "TeamMemberRep.cshtml",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Home\\TeamMemberRep.cshtml",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Views\\Home\\TeamMemberRep.cshtml",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Home\\TeamMemberRep.cshtml",
+              "RelativeToolTip": "RealEstate.PL\\Views\\Home\\TeamMemberRep.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAgwBIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T17:57:45.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AssignRoles.cshtml",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Role\\AssignRoles.cshtml",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Views\\Role\\AssignRoles.cshtml",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Role\\AssignRoles.cshtml",
+              "RelativeToolTip": "RealEstate.PL\\Views\\Role\\AssignRoles.cshtml",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAgwEUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T17:48:27.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "TeamMember.cshtml",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Home\\TeamMember.cshtml",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Views\\Home\\TeamMember.cshtml",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Home\\TeamMember.cshtml",
+              "RelativeToolTip": "RealEstate.PL\\Views\\Home\\TeamMember.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T18:16:50.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "RealEstate.PL\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "RealEstate.PL\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T18:16:45.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RoleListViewModel.cs",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\ViewModels\\Auth\\RoleListViewModel.cs",
+              "RelativeDocumentMoniker": "RealEstate.PL\\ViewModels\\Auth\\RoleListViewModel.cs",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\ViewModels\\Auth\\RoleListViewModel.cs",
+              "RelativeToolTip": "RealEstate.PL\\ViewModels\\Auth\\RoleListViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T17:29:10.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ApplicationRolesViewModel.cs",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\ViewModels\\Auth\\ApplicationRolesViewModel.cs",
+              "RelativeDocumentMoniker": "RealEstate.PL\\ViewModels\\Auth\\ApplicationRolesViewModel.cs",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\ViewModels\\Auth\\ApplicationRolesViewModel.cs",
+              "RelativeToolTip": "RealEstate.PL\\ViewModels\\Auth\\ApplicationRolesViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T17:43:52.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "dbo.AspNetRoles [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/master/True/SqlTable/dbo.AspNetRoles.sql",
+              "ToolTip": "dbo.AspNetRoles [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-09T17:30:01.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "RoleViewModel.cs",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\ViewModels\\Auth\\RoleViewModel.cs",
+              "RelativeDocumentMoniker": "RealEstate.PL\\ViewModels\\Auth\\RoleViewModel.cs",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\ViewModels\\Auth\\RoleViewModel.cs",
+              "RelativeToolTip": "RealEstate.PL\\ViewModels\\Auth\\RoleViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T17:30:36.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "TeamMemberViewModelRepo.cs",
+              "DocumentMoniker": "E:\\RealEstate.PL\\RealEstate.PL\\ViewModels\\Home\\TeamMemberViewModelRepo.cs",
+              "RelativeDocumentMoniker": "RealEstate.PL\\ViewModels\\Home\\TeamMemberViewModelRepo.cs",
+              "ToolTip": "E:\\RealEstate.PL\\RealEstate.PL\\ViewModels\\Home\\TeamMemberViewModelRepo.cs",
+              "RelativeToolTip": "RealEstate.PL\\ViewModels\\Home\\TeamMemberViewModelRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T17:24:51.923Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

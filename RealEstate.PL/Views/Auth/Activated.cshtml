@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Congratulations";
+    Layout = "_Auth";
+}
+<style>
+    .countdown {
+        font-size: 1.5rem;
+        font-weight: 600; 
+        color: #343a40; 
+        background: #e9ecef; 
+        padding: 0.4rem 0.8rem;
+        border-radius: 0.3rem; 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+        display: inline-block; 
+        margin: 0 0.5rem;
+    }
+</style>
+<div class="container-fluid vh-100 d-flex align-items-center justify-content-center overflow-hidden shadow-layer">
+    <div class="row w-100 mx-0">
+        <div class="col-md-6 d-flex align-items-center justify-content-center p-0">
+            <img src="~/assets/images/Login.png" alt="Confirmation Image" class="img-fluid img-container" style="max-height: 90%; max-width: 100%; object-fit: cover;">
+        </div>
+        <div class="col-md-6 d-flex align-items-center justify-content-center p-3">
+            <div class="w-75 text-center">
+                <h2 class="mb-4">Congratulations!</h2>
+                <p class="mb-4">Your account has been successfully activated. You can now log in and start using our services. Thank you for joining us!</p>
+
+                <div id="redirect-message" class="mt-4">
+                    <p class="lead">You will be redirected to the homepage in <span id="countdown" class="countdown">5</span> seconds...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var countdownElement = document.getElementById('countdown');
+            var seconds = 5;
+            var interval = setInterval(function () {
+                seconds--;
+                countdownElement.textContent = seconds;
+                if (seconds <= 0) {
+                    clearInterval(interval);
+                    window.location.href = '@Url.Action("Login", "Auth")';
+                }
+            }, 1000);
+        });
+    </script>
+}

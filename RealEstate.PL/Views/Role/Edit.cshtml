@@ -1,0 +1,47 @@
+﻿@model RealEstate.PL.ViewModels.Auth.ApplicationRolesViewModel
+@{
+    ViewData["Title"] = "Edit Role";
+    Layout = "_LogedUser";
+}
+
+<div class="container mt-4 shadow-lg p-3">
+    <div class="mt-5">
+        <div asp-validation-summary="ModelOnly" id="error-alert" class="alert alert-danger alert-dismissible fade show" role="alert">
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        @if (TempData["Error"] != null)
+        {
+            <div id="error-alert" class="mt-5 alert alert-danger alert-dismissible fade show" role="alert">
+                @TempData["Error"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+
+        @if (TempData["Success"] != null)
+        {
+            <div id="success-alert" class="mt-5 alert alert-success alert-dismissible fade show" role="alert">
+                @TempData["Success"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+    </div>
+    <h2 class="text-center mb-4 bg-light text-dark py-3 px-4 rounded">
+        <i class="bi bi-pencil-square me-2"></i> @ViewData["Title"]
+    </h2>
+    <form method="post">
+        <input type="hidden" asp-for="Id" />
+        <div class="mb-3">
+            <label for="Name" class="form-label">
+                <i class="bi bi-person-badge me-2"></i> Role Name
+            </label>
+            <input type="text" asp-for="Name" class="form-control" id="Name" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="text-center mb-4 bg-light text-dark py-3 px-4 rounded">
+            <button type="submit" class="btn btn-outline-primary">
+                <i class="bi bi-save me-2"></i> Update Role
+            </button>
+        </div>
+    </form>
+</div>

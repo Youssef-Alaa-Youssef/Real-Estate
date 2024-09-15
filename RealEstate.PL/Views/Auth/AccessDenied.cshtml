@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Access Denied";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="~/assets/css/bootstrap.css" rel="stylesheet">
+
+    <style>
+        .full-height {
+            height: 100vh;
+        }
+
+        .centered-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .alert-custom {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .btn-custom {
+            border-radius: 50px;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body class="full-height bg-light">
+    <div class="container d-flex justify-content-center align-items-center full-height">
+        <div class="alert alert-danger alert-dismissible fade show alert-custom text-center" role="alert">
+            <h4 class="alert-heading">Access Denied</h4>
+            <p class="mb-0">You do not have permission to view this page.</p>
+            <hr>
+            <p class="mb-0">If you believe this is a mistake, please contact your administrator.</p>
+            <a asp-action="Index" asp-controller="Home" class="btn btn-outline-danger btn-custom mt-4">Go to Homepage</a>
+        </div>
+    </div>
+    <script src="~/assets/js/bootstrap.min.js"></script>
+
+</body>
+</html>

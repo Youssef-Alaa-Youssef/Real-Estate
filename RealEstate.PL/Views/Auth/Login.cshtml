@@ -1,0 +1,72 @@
+﻿@model LogInViewModel
+@{
+    ViewData["Title"] = "Login Now";
+    Layout = "_Auth";
+}
+
+<div class="container-fluid  d-flex align-items-center justify-content-center overflow-hidden shadow-layer">
+    <div class="row w-100  m-0">
+        <!-- Left Section: Image -->
+        <div class="col-md-6 d-flex align-items-center justify-content-center p-0">
+            <img src="~/assets/images/Login.png" alt="Real Estate Image" class="img-fluid img-container" style="max-height: 90%; max-width: 100%; object-fit: cover;">
+        </div>
+        <!-- Right Section: Form -->
+        <div class="col-md-6 d-flex align-items-center justify-content-center p-0">
+
+            <div class="w-75">
+
+                <h2 class="text-center mb-4">Login Now</h2>
+                <div asp-validation-summary="ModelOnly" id="error-alert" class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+
+                @if (TempData["Error"] != null)
+                {
+                    <div id="error-alert" class="alert alert-danger alert-dismissible fade show" role="alert">
+                        @TempData["Error"]
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                }
+
+                @if (TempData["Success"] != null)
+                {
+                    <div id="success-alert" class="alert alert-success alert-dismissible fade show" role="alert">
+                        @TempData["Success"]
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                }
+
+                <form asp-controller="Auth" asp-action="LogIn" method="POST">
+                    @Html.AntiForgeryToken()
+                    <div class="mb-3">
+                        <label asp-for="Email" class="form-label"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Password" class="form-label"></label>
+                        <input asp-for="Password" type="password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-check mb-3">
+                        <input asp-for="RememberMe" class="form-check-input" />
+                        <label class="form-check-label" asp-for="RememberMe"></label>
+                    </div>
+
+                    <a asp-controller="Auth" asp-action="ForgotPassword" class="d-block text-primary mb-3">Forgot Password?</a>
+
+                    <button type="submit" class="btn btn-primary w-100">Login</button>
+                </form>
+
+                <a asp-controller="Home" asp-action="Index" class="d-block mt-3 text-primary">Back to Home</a>
+                <a asp-controller="Auth" asp-action="SignUp" class="d-block mt-3 text-primary">Don't have an account?</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,57 @@
+﻿@model IEnumerable<RealEstate.PL.ViewModels.Auth.ApplicationUserViewModel>
+
+@{
+    ViewData["Title"] = "User Roles";
+    Layout = "_LogedUser";
+}
+
+<div class="container mt-4 shadow-lg p-3 bg-white rounded">
+    <h2 class="text-center mb-4 bg-light text-dark py-3 px-4 rounded">
+        <i class="bi bi-person-badge me-2"></i> @ViewData["Title"]
+    </h2>
+    <div class="mb-3 text-center">
+        <a asp-action="Create" class="btn btn-outline-primary">
+            <i class="bi bi-plus-circle me-2"></i> Create Role
+        </a>
+        <a asp-action="AllRoles" class="btn btn-outline-info ms-2">
+            <i class="bi bi-eye me-2"></i> All Roles
+        </a>
+    </div>
+    <table class="table table-striped text-center">
+        <thead class="table-dark">
+            <tr>
+                <th>User Name</th>
+                <th>Email</th>
+                <th>Roles</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.UserName</td>
+                    <td>@user.Email</td>
+                    <td>
+                        <div class="role-list-container">
+                            <span class="role-list">
+                                @foreach (var role in user.Roles)
+                                {
+                                    <span class="role-item">
+                                        <i class="bi bi-shield-check me-1"></i>@role
+                                    </span>
+                                }
+                            </span>
+                        </div>
+                    </td>
+                    <td>
+                        <a asp-action="AssignRoles" asp-route-userId="@user.UserId" class="btn btn-outline-warning">
+                            <i class="bi bi-person-check me-2"></i> Assign Roles
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

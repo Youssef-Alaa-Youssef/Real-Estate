@@ -1,0 +1,146 @@
+﻿@model RealEstate.PL.ViewModels.TeamMemberViewModel
+
+@{
+    ViewData["Title"] = "Team Member Form";
+    Layout = "_LogedUser";
+
+}
+
+
+<div class="container shadow-lg mt-5 ">
+    <div class="mt-5">
+        <div asp-validation-summary="ModelOnly" id="error-alert" class="alert alert-danger alert-dismissible fade show" role="alert">
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        @if (TempData["Error"] != null)
+        {
+            <div id="error-alert" class="mt-5 alert alert-danger alert-dismissible fade show" role="alert">
+                @TempData["Error"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+
+        @if (TempData["Success"] != null)
+        {
+            <div id="success-alert" class="mt-5 alert alert-success alert-dismissible fade show" role="alert">
+                @TempData["Success"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+    </div>
+
+    <div class="p-4 mb-4 bg-white rounded">
+        <h2 class="text-center mb-4 bg-light text-dark py-3 px-4 rounded">
+            @ViewData["Title"]
+        </h2>
+
+        <form asp-action="TeamMemberAction" method="post">
+            @Html.AntiForgeryToken()
+
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label asp-for="Name" class="form-label"></label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label asp-for="Role" class="form-label"></label>
+                        <input asp-for="Role" class="form-control" />
+                        <span asp-validation-for="Role" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label asp-for="ProfileImageUrl" class="form-label"></label>
+                        <input asp-for="ProfileImageUrl" class="form-control" />
+                        <span asp-validation-for="ProfileImageUrl" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label asp-for="IconUrl" class="form-label"></label>
+                        <input asp-for="IconUrl" class="form-control" />
+                        <span asp-validation-for="IconUrl" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label asp-for="Email" class="form-label"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label asp-for="Phone" class="form-label"></label>
+                        <input asp-for="Phone" class="form-control" />
+                        <span asp-validation-for="Phone" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label asp-for="FacebookLink" class="form-label"></label>
+                        <input asp-for="FacebookLink" class="form-control" />
+                        <span asp-validation-for="FacebookLink" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label asp-for="TwitterLink" class="form-label"></label>
+                        <input asp-for="TwitterLink" class="form-control" />
+                        <span asp-validation-for="TwitterLink" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label asp-for="LinkedInLink" class="form-label"></label>
+                        <input asp-for="LinkedInLink" class="form-control" />
+                        <span asp-validation-for="LinkedInLink" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label asp-for="InstagramLink" class="form-label"></label>
+                        <input asp-for="InstagramLink" class="form-control" />
+                        <span asp-validation-for="InstagramLink" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label asp-for="YouTubeLink" class="form-label"></label>
+                        <input asp-for="YouTubeLink" class="form-control" />
+                        <span asp-validation-for="YouTubeLink" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group text-center mt-4">
+                <button type="submit" class="btn btn-outline-dark w-25">Add Member</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
